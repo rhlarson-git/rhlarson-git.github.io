@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <style>
+            body{
+                font-family: Calibri, sans-serif;
+            }
+            .ol{
+                position: absolute;
+                top: 265px;
+                left: 400px;
+            }
+            .image{
+                position: absolute;
+                top: 230px;
+                right: 60px;
+                border: solid 6px gold;
+            }
+            video{
+                position: absolute;
+                top: 230px;
+                right: 360px;
+                border: solid 6px gold;
+            }
+            a{
+                color: gold;
+            }
+        </style>
+        <title>CSS Recipe</title>
+    </head>
+    <body>
+
+        <div class="container-fluid sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+                <a class="navbar-brand text-light" href="#">Ruby Larson Portfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Recipe
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="recipe.html">HTML</a>
+                                <a class="dropdown-item active" href="recipe2.html">CSS</a>
+                                <a class="dropdown-item" href="recipe3.html">Bootstrap</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="hobbies.html">Hobbies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="countries.html">Travel</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <h1>Banana Bread</h1>
+            <h2>History of Banana Bread</h2>
+            <p> In the Great Depression, during the 1920's and 30's, the stock market crashed. 
+                The poor economic situation led to a massage food shortage all across  the country. <br>
+                People became creative and used up every single item of food in thir house that they 
+                could possibly use. Even groos, old, brown, rotten bananas. All the ingredients of <br>
+                banana bread were relatively accessable: flour, sugar, some kind of leavening agent 
+                (commonly baking soda), butter or fat, and most improtantly <strong><i>rotten bananas</i></strong>.</p>
+            
+            <h3>Sources</h3>
+            <p>King Arthur Baking<br> (<a href="https://www.kingarthurbaking.com/blog/2017/02/23/short-history-of-banana-bread">A short history of banana bread</a>)</p>
+            <video width="280" height="120" controls muted>
+                <source src="media/bananavideo.webm">t
+                The browser doesn't support the format.
+            </video>
+            <h2>Ingredients</h2>
+            <ul>
+                <li>195 g whole wheat flour</li>
+                <li>1 teaspoon baking soda</li>
+                <li>1/2 teaspoon salt</li>
+                <li>4 ounces or 1 stick of butter</li>
+                <li>1 cup sugar</li>
+                <li>1 cup mashed bananas</li>
+                <li>2 eggs</li>
+                <li>1/4 cup chocolate chips</li>
+            </ul>
+            <div class="ol">
+                <h2 id="instructions">Instructions</h2>
+                <ol>
+                    <li>Pre heat the oven to 350 degrees</li>
+                    <li>Grease and flour one 8x4 inch bread pan</li>
+                    <li>In a medium bowl whisk together the flour, baking soda, and salt, then set aside</li>
+                    <li>With a hand held mixer, in a large bowl, beat the butter and sugar until combined</li>
+                    <li>Then, beat in the mashed bananas, then the eggs</li>
+                    <li>Mix in the chocolate chips</li>
+                    <li>Then, add the dry ingredients and fold in until just combined.</li>
+                    <li>Spread the mixture in the greased pan aand sprinkle some cinnamon sugar on the top.</li>
+                    <li>Bake for 55-65 minutes</li>
+                    <li>Let cool in the pan for 10 minutes and then <strong><i>enjoy!</i></strong></li>
+                </ol>
+            </div>
+            <img class="image" src="media/bananabread.jpeg" alt="banana bread recipe" width="240" height="360">
+        </div>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        -->
+    </body>
+</html>
